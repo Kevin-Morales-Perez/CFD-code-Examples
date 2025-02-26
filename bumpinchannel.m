@@ -1,4 +1,4 @@
-% Flow over a bump in a channel - Spalart - Allmaras
+% Flow over a bump in a channel 
 % Written by Kevin Morales
 
 clear all
