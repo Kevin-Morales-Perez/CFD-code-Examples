@@ -203,7 +203,7 @@ Fu_w=0.5*(u_W+u_P)*dA_w;
 
 %Face  N
 %Diferencias centrales
-Fu_n =0.5*(u_N + u_P)*cosN_n*tanN_n*rho;
+Fu_n =0.5*(u_N + u_P)*cosN_n*tanN_n*dA_n*rho;
 
 %Face  E
 %Upwind 

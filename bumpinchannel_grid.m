@@ -7,8 +7,8 @@ clc
 tic
 l_x = 1.5; % length in X
 l_y = 1.5; % length in Y
-n_x = 36;  % number of points in X
-n_y = 36;  % number of points in Y
+n_x = 40;  % number of points in X
+n_y = 40;  % number of points in Y
 
 x = linspace(0, l_x, n_x+1);
 dx = x(2) - x(1); % dx
@@ -126,7 +126,7 @@ end
 
 figure(5)
 plot(1:n_x, vol_f)
-hold on 
+hold on
 plot(1:n_x, vol_b)
 hold off
 title("Volumes of the cells")
