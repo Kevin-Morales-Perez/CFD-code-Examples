@@ -281,7 +281,7 @@ Fv_n = -0.5*(v_n_w*v_n_e)*dA_n*cosN_n*rho;
 
 %Face S
 %Upwind TVD
-Fv_s= 0.5*(v_s_w*v_s_e)*dA_n*cosS_n*rho;
+Fv_s= 0.5*(v_s_w*v_s_e)*dA_s*cosS_n*rho;
 %rp_s=[0 -dy_2];%Vector que une los nodos  P y N en vel_v
 %if Fv_s>0
 %    U_up=u_S;

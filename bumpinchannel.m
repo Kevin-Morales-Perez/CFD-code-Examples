@@ -19,7 +19,7 @@ dx = X(1, 2) - X(1, 1); % dx
 L_y = max(Y(:, 1));
 
 %_____________Constants______________
-Vel_initial = 1e-4;  % 29e-4; % Velocity at the inlet
+Vel_initial = 5e-5;  % 29e-4; % Velocity at the inlet
 rho = 1.2; % Density (Kg/m3)
 nu = 0.0000174; % Viscosity (Kg/(m*s))
 Reynolds_num = Vel_initial * rho * L_y / nu; % Dimensionless

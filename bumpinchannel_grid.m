@@ -7,8 +7,8 @@ clc
 tic
 l_x = 1.5; % length in X
 l_y = 1.5; % length in Y
-n_x = 40;  % number of points in X
-n_y = 40;  % number of points in Y
+n_x = 30;  % number of points in X
+n_y = 30;  % number of points in Y
 
 x = linspace(0, l_x, n_x+1);
 dx = x(2) - x(1); % dx
